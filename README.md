@@ -22,6 +22,9 @@ Then:
 conda env create -f environment.yml
 ```
 and activate the conda environment.
+```bash
+source activate pydata_pytorch_tutorial
+```
 
 Download data and models for the tutorial:
 ```bash
