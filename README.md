@@ -23,9 +23,12 @@ source activate ppt
 
 # Install dependencies
 conda install -y matplotlib numpy scipy tensorflow
+# For linux
 conda install -y pytorch-cpu torchvision-cpu ignite -c pytorch
+# For Mac
+conda install -y pytorch torchvision ignite -c pytorch
+# general
 conda install -y jupyterlab -c conda-forge
-conda install -t torchvision
 pip install tensorboardX tensorboard scikit-learn
 pip install -e .
 ```
