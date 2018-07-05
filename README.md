@@ -21,6 +21,10 @@ and activate the conda environment.
 ```bash
 source activate pydata_pytorch_tutorial
 ```
+and install the `ppt` package (this project basically)
+```bash
+pip install -e .
+```
 
 Download data and models for the tutorial:
 ```bash
