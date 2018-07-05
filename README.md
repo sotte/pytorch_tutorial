@@ -6,11 +6,7 @@ This project is going to contain the material of the PyTorch tutorial.
 Content
 -------
 - [00-index](notebooks/00_index.ipynb) Tutorial structure and PyTorch basics
-- TODO Transfer learning for Computer Vision
-- Intermission / Random Things
-  - [0X_mean_shift_clustering](notebooks/0X_mean_shift_clustering.ipynb) Use the GPU to speed up mean shift clustering.
-  - TODO RNNs from scratch
-  - TODO Teacher forcing
+
 
 Setup
 -----
