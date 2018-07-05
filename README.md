@@ -25,7 +25,7 @@ source activate ppt
 conda install -y matplotlib numpy scipy tensorflow
 conda install -y pytorch-cpu torchvision-cpu ignite -c pytorch
 conda install -y jupyterlab -c conda-forge
-pip install tensorboardX scikit-learn
+pip install tensorboardX tensorboard scikit-learn
 pip install -e .
 ```
 
