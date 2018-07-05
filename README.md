@@ -17,7 +17,7 @@ Then:
 # create a conda environment
 conda env create -f environment.yml
 ```
-and activate the conda environment.
+activate the conda environment
 ```bash
 source activate pydata_pytorch_tutorial
 ```
@@ -37,6 +37,19 @@ jupyter lab
 ```
 
 
+### Mac
+If you have problems with the dependencies under mac check out this issue:
+https://github.com/sotte/pytorch_tutorial/issues/2
+
+```bash
+# You might have to use the `environment_mac.yml`
+conda env create -f environment_mac.yml
+# and manually update freetype and matplotlib
+conda update freetype matplotlib
+```
+
+
+### Misc
 To get the [Table of Contents](https://github.com/ian-r-rose/jupyterlab-toc)
 displayed within jupyter lab do the following:
 ```bash
