@@ -5,7 +5,7 @@ This project is going to contain the material of the PyTorch tutorial.
 
 Content
 -------
-- [00-index](notebooks/00_index.ipynb) Tutorial structure and PyTorch basics
+- [00-index](notebooks/00_index.ipynb)
 
 
 Setup
@@ -24,9 +24,13 @@ Download data and models for the tutorial:
 python download_data.py
 ```
 Then you should be ready to go.
+Start jupyter lab
+```bash
+jupyter lab
+```
 
 
-To get the [Table of Contenst](https://github.com/ian-r-rose/jupyterlab-toc)
+To get the [Table of Contents](https://github.com/ian-r-rose/jupyterlab-toc)
 displayed within jupyter lab do the following:
 ```bash
 # install node
