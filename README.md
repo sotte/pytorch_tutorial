@@ -1,7 +1,13 @@
 PyTorch Tutorial
 ================
 
-This project is going to contain the material of the PyTorch tutorial.
+This repository contains the material for the "PyTorch Tutorial"
+I gave at the *PyData Berlin 2018* conference.
+
+**Post for the tutorial** https://www.youtube.com/watch?v=_H3aw6wkCv0
+
+**Video** https://nodata.science/pydata-pytorch-tutorial.html
+
 
 Content
 -------
