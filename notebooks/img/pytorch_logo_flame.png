@@ -1,0 +1,11 @@
+--2019-03-18 14:43:17--  https://pytorch.org/assets/images/pytorch-logo.png
+Resolving pytorch.org (pytorch.org)... 185.199.108.153
+Connecting to pytorch.org (pytorch.org)|185.199.108.153|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 22916 (22K) [image/png]
+Saving to: ‘pytorch-logo.png’
+
+     0K .......... .......... ..                              100%  664K=0,03s
+
+2019-03-18 14:43:18 (664 KB/s) - ‘pytorch-logo.png’ saved [22916/22916]
+

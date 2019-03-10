@@ -1,0 +1,17 @@
+name: pytorch_tutorial_123
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - torchvision
+  - cudatoolkit=10.0
+  - jupyterlab
+  - numpy
+  - matplotlib
+  - pillow
+  - ipdb
+  - scikit-learn
+  - pip:
+    - torchsummary

@@ -1,92 +1,98 @@
 PyTorch Tutorial
-================
+================================================================================
 
-This repository contains the material for the "PyTorch Tutorial"
-I gave at the *PyData Berlin 2018* conference.
+This repository contains material to get started with
+[PyTorch](https://pytorch.org/) v1.0.
 
-**Post for the tutorial** https://www.youtube.com/watch?v=_H3aw6wkCv0
+<hr>
 
-**Video** https://nodata.science/pydata-pytorch-tutorial.html
+Table of Contents
+--------------------------------------------------------------------------------
 
+### 0. Foreword
+- [Foreword](notebooks/foreword.ipynb) - Why PyTorch and why not? Why this talk?
 
-Content
--------
-- [00-index](notebooks/00_index.ipynb)
+### 1. Basics
+- [PyTorch basics](notebooks/pytorch_basics.ipynb) - tensors, GPU, autograd
+- [Debugging](notebooks/debugging.ipynb)
+- [Example: linear regression](notebooks/lin_reg.ipynb)
+- [Storing and loading models](notebooks/storing_and_loading_models.ipynb)
+- [Working with data](notebooks/working_with_data.ipynb) - `Dataset`, `DataLoader`, `Sampler`, `transforms`
+
+### 2. Computer Vision
+- [Transfer Learning](notebooks/transfer_learning.ipynb)
+
+### 3. Advanced
+- [Training Libraries and Visualization](notebooks/training_libraries.ipynb)
+- [Torch JIT](notebooks/torch_jit.ipynb)
+
+### -2. Misc - Cool Applications and Tips
+- [Machine Learning 101 with numpy and PyTorch](notebooks/0x_machine_learning_101.ipynb)
+- [PyTorch + GPU in Google's Colab](notebooks/0X_pytorch_in_googles_colab.ipynb)
+- [Teacher Forcing](notebooks/0X_teacher_forcing.ipynb)
+- [RNNs from Scratch](notebooks/0X_rnn_from_scratch.ipynb)
+- [Mean Shift Clustering](notebooks/0X_mean_shift_clustering.ipynb)
+- TODO Hooks
+- TODO `nn` and `nn.Module`
+- TODO Deploy with TF Serving
+- TODO init
+- TODO PyTorch C++ frontend
+
+### -1. The End
+- [The_End](notebooks/the_end.ipynb)
+
+<hr>
 
 
 Setup
------
+--------------------------------------------------------------------------------
 
-Please make sure `conda` is installed.
+### Requirements
 
-### Manual install
-Due to some problems with the environment.yml here are instructions
-for a manual installation:
-```bash
-# create conda environment named ppt
-conda new --name ppt
-source activate ppt
+- Python 3.6 or higher
+- conda
 
-# Install dependencies
-conda install -y matplotlib numpy scipy tensorflow
-# For linux
-conda install -y pytorch-cpu torchvision-cpu ignite -c pytorch
-# For Mac
-conda install -y pytorch torchvision ignite -c pytorch
-# general
-conda install -y jupyterlab -c conda-forge
-pip install tensorboardX tensorboard scikit-learn
-pip install -e .
-```
-
-
-### Install with environment.yml
-
-Then:
-```bash
-# create a conda environment
-conda env create -f environment.yml
-```
-activate the conda environment
-```bash
-source activate pydata_pytorch_tutorial
-```
-and install the `ppt` package (this project basically)
-```bash
-pip install -e .
-```
-
-
-### Mac
-If you have problems with the dependencies under mac check out this issue:
-https://github.com/sotte/pytorch_tutorial/issues/2
+### Install Dependencies
 
 ```bash
-# You might have to use the `environment_mac.yml`
-conda env create -f environment_mac.yml
-# and manually update freetype and matplotlib
-conda update freetype matplotlib
-```
+# If you have a GPU and CUDA 10
+conda env create -f environment_gpu.yml
+# If you don't have a GPU
+conda env create -f environment_cpu.yml
 
+# activate the conda environment
+source activate pytorch_tutorial_123
+```
 
 ### Download data and models
+
 Download data and models for the tutorial:
+
 ```bash
 python download_data.py
 ```
+
 Then you should be ready to go.
-Start jupyter lab
+Start jupyter lab:
+
 ```bash
 jupyter lab
 ```
 
 
-### Misc
-To get the [Table of Contents](https://github.com/ian-r-rose/jupyterlab-toc)
-displayed within jupyter lab do the following:
+Misc
+--------------------------------------------------------------------------------
+
+To get the
+[jupyter lab table of contents extensions](https://github.com/jupyterlab/jupyterlab-toc)
+do the following:
 ```bash
-# install node
-conda install -c conda-forge nodejs
-# install the toc extension
-jupyter labextension install jupyterlab-toc
+jupyter labextension install @jupyterlab/toc
 ```
+
+Prior Versions
+--------------------------------------------------------------------------------
+
+- Version of this tutorial for the PyData 2018 conference
+  [material](https://github.com/sotte/pytorch_tutorial/tree/pydata2018)
+  [video](https://nodata.science/pydata-pytorch-tutorial.html)
