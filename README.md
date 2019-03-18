@@ -95,6 +95,6 @@ jupyter labextension install @jupyterlab/toc
 Prior Versions
 --------------------------------------------------------------------------------
 
-- Version of this tutorial for the PyData 2018 conference
-  [material](https://github.com/sotte/pytorch_tutorial/tree/pydata2018)
-  [video](https://nodata.science/pydata-pytorch-tutorial.html)
+- Version of this tutorial for the PyData 2018 conference:
+  [[material]](https://github.com/sotte/pytorch_tutorial/tree/pydata2018)
+  [[video]](https://nodata.science/pydata-pytorch-tutorial.html)
