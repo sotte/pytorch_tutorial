@@ -1,3 +1,5 @@
+<img src="notebooks/img/pytorch-logo.png" width="100">
+
 PyTorch Tutorial
 ================================================================================
 
