@@ -1,6 +1,4 @@
-<img src="notebooks/img/pytorch-logo.png" width="100">
-
-PyTorch Tutorial
+<img src="notebooks/img/pytorch-logo.png" width="100"> PyTorch Tutorial
 ================================================================================
 
 This repository contains material to get started with
