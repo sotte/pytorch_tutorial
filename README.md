@@ -9,10 +9,10 @@ This repository contains material to get started with
 Table of Contents
 --------------------------------------------------------------------------------
 
-### 0. Foreword
+### PART 0 - Foreword
 - [Foreword](notebooks/foreword.ipynb) - Why PyTorch and why not? Why this talk?
 
-### 1. Basics
+### PART 1 - Basics
 - [PyTorch basics](notebooks/pytorch_basics.ipynb) - tensors, GPU, autograd
   [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/pytorch_basics.ipynb)
 - [Debugging](notebooks/debugging.ipynb)
@@ -24,17 +24,17 @@ Table of Contents
 - [Working with data](notebooks/working_with_data.ipynb) - `Dataset`, `DataLoader`, `Sampler`, `transforms`
   [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/working_with_data.ipynb)
 
-### 2. Computer Vision
+### PART 2 - Computer Vision
 - [Transfer Learning](notebooks/transfer_learning.ipynb)
   [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/transfer_learning.ipynb)
 
-### 3. Advanced
+### PART 3 - Advanced
 - [Training Libraries and Visualization](notebooks/training_libraries.ipynb)
   [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/training_libraries.ipynb)
 - [Torch JIT](notebooks/torch_jit.ipynb)
   [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/torch_jit.ipynb)
 
-### -2. Misc - Cool Applications and Tips
+### PART -2 - Misc, Cool Applications, Tips, WIP
 - [Machine Learning 101 with numpy and PyTorch](notebooks/0x_machine_learning_101.ipynb)
 - [PyTorch + GPU in Google's Colab](notebooks/0X_pytorch_in_googles_colab.ipynb)
 - [Teacher Forcing](notebooks/0X_teacher_forcing.ipynb)
@@ -46,7 +46,7 @@ Table of Contents
 - TODO init
 - TODO PyTorch C++ frontend
 
-### -1. The End
+### PART -1 - The End
 - [The_End](notebooks/the_end.ipynb)
 
 <hr>
