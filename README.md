@@ -1,4 +1,4 @@
-<img src="notebooks/img/pytorch-logo.png" width="100"> PyTorch Tutorial
+<img src="notebooks/img/pytorch-logo.png" width="80"> PyTorch Tutorial
 ================================================================================
 
 This repository contains material to get started with
@@ -14,17 +14,25 @@ Table of Contents
 
 ### 1. Basics
 - [PyTorch basics](notebooks/pytorch_basics.ipynb) - tensors, GPU, autograd
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/pytorch_basics.ipynb)
 - [Debugging](notebooks/debugging.ipynb)
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/debugging.ipynb)
 - [Example: linear regression](notebooks/lin_reg.ipynb)
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/lin_reg.ipynb)
 - [Storing and loading models](notebooks/storing_and_loading_models.ipynb)
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/storing_and_loading_models.ipynb)
 - [Working with data](notebooks/working_with_data.ipynb) - `Dataset`, `DataLoader`, `Sampler`, `transforms`
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/working_with_data.ipynb)
 
 ### 2. Computer Vision
 - [Transfer Learning](notebooks/transfer_learning.ipynb)
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/transfer_learning.ipynb)
 
 ### 3. Advanced
 - [Training Libraries and Visualization](notebooks/training_libraries.ipynb)
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/training_libraries.ipynb)
 - [Torch JIT](notebooks/torch_jit.ipynb)
+  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/torch_jit.ipynb)
 
 ### -2. Misc - Cool Applications and Tips
 - [Machine Learning 101 with numpy and PyTorch](notebooks/0x_machine_learning_101.ipynb)
