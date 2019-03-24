@@ -25,7 +25,7 @@ if __name__ == "__main__":
     _ds = MNIST(ROOT, train=False, download=True)
 
     print()
-    ptitle("Downloading MNIST")
+    ptitle("Downloading CIFAR10")
     _ds = CIFAR10(ROOT, train=True, download=True)
     _ds = CIFAR10(ROOT, train=False, download=True)
 
