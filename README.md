@@ -13,41 +13,44 @@ Table of Contents
 - [Foreword](notebooks/foreword.ipynb) - Why PyTorch and why not? Why this talk?
 
 ### PART 1 - Basics
-- [PyTorch basics](notebooks/pytorch_basics.ipynb) - tensors, GPU, autograd
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/pytorch_basics.ipynb)
-- [Debugging](notebooks/debugging.ipynb)
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/debugging.ipynb)
-- [Example: linear regression](notebooks/lin_reg.ipynb)
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/lin_reg.ipynb)
-- [Storing and loading models](notebooks/storing_and_loading_models.ipynb)
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/storing_and_loading_models.ipynb)
-- [Working with data](notebooks/working_with_data.ipynb) - `Dataset`, `DataLoader`, `Sampler`, `transforms`
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/working_with_data.ipynb)
+- [PyTorch basics](notebooks/pytorch_basics.ipynb) - tensors, GPU, autograd -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/pytorch_basics.ipynb)
+- [Debugging](notebooks/debugging.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/debugging.ipynb)
+- [Example: linear regression](notebooks/lin_reg.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/lin_reg.ipynb)
+- [Storing and loading models](notebooks/storing_and_loading_models.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/storing_and_loading_models.ipynb)
+- [Working with data](notebooks/working_with_data.ipynb) - `Dataset`, `DataLoader`, `Sampler`, `transforms` -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/working_with_data.ipynb)
 
 ### PART 2 - Computer Vision
-- [Transfer Learning](notebooks/transfer_learning.ipynb)
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/transfer_learning.ipynb)
+- [Transfer Learning](notebooks/transfer_learning.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/transfer_learning.ipynb)
 
-### PART 3 - Advanced
+### PART 3 - Misc, Cool Applications, Tips, Advanced
 - [Training Libraries and Visualization](notebooks/training_libraries.ipynb)
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/training_libraries.ipynb)
-- [Torch JIT](notebooks/torch_jit.ipynb)
-  [[colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/torch_jit.ipynb)
-
-### PART -2 - Misc, Cool Applications, Tips, WIP
-- [Machine Learning 101 with numpy and PyTorch](notebooks/0x_machine_learning_101.ipynb)
+- [Torch JIT](notebooks/torch_jit.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/torch_jit.ipynb)
+- [Machine Learning 101 with numpy and PyTorch](notebooks/machine_learning_101.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/machine_learning_101.ipynb)
 - [PyTorch + GPU in Google's Colab](notebooks/0X_pytorch_in_googles_colab.ipynb)
 - [Teacher Forcing](notebooks/0X_teacher_forcing.ipynb)
-- [RNNs from Scratch](notebooks/0X_rnn_from_scratch.ipynb)
-- [Mean Shift Clustering](notebooks/0X_mean_shift_clustering.ipynb)
-- TODO Hooks
+- [RNNs from Scratch](notebooks/rnn_from_scratch.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/rnn_from_scratch.ipynb)
+- [Mean Shift Clustering](notebooks/mean_shift_clustering.ipynb) -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/mean_shift_clustering.ipynb)
+
+### PART -2 - WIP
+- WIP [Hooks](notebooks/hooks.ipynb)
 - TODO `nn` and `nn.Module`
-- TODO Deploy with TF Serving
-- TODO init
+- TODO Deployment
+- TODO Deployment with TF Serving
+- TODO `nn.init`
 - TODO PyTorch C++ frontend
 
 ### PART -1 - The End
-- [The_End](notebooks/the_end.ipynb)
+- [The End](notebooks/the_end.ipynb)
 
 <hr>
 
