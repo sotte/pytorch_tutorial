@@ -32,6 +32,9 @@ Table of Contents
 - [Training Libraries and Visualization](notebooks/training_libraries.ipynb)
 - [Torch JIT](notebooks/torch_jit.ipynb) -
   [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/torch_jit.ipynb)
+- [Hooks](notebooks/hooks.ipynb) -
+  register functions to be called during the forward and backward pass -
+  [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/hooks.ipynb)
 - [Machine Learning 101 with numpy and PyTorch](notebooks/machine_learning_101.ipynb) -
   [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/machine_learning_101.ipynb)
 - [PyTorch + GPU in Google's Colab](notebooks/0X_pytorch_in_googles_colab.ipynb)
@@ -41,8 +44,7 @@ Table of Contents
 - [Mean Shift Clustering](notebooks/mean_shift_clustering.ipynb) -
   [[open in colab]](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/mean_shift_clustering.ipynb)
 
-### PART -2 - WIP
-- WIP [Hooks](notebooks/hooks.ipynb)
+### PART -2 - WIP and TODO
 - TODO `nn` and `nn.Module`
 - TODO Deployment
 - TODO Deployment with TF Serving
