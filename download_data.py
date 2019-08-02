@@ -8,7 +8,7 @@ from pathlib import Path
 from torchvision import models
 from torchvision.datasets import MNIST, CIFAR10
 
-from notebooks import utils
+from notebooks import my_datasets
 from notebooks.utils import ptitle
 
 
@@ -17,7 +17,7 @@ if __name__ == "__main__":
     ROOT.mkdir(parents=True, exist_ok=True)
 
     ptitle("Downloading DogsCatsDataset")
-    _ds = utils.DogsCatsDataset(ROOT, "train", download=True)
+    _ds = my_datasets.DogsCatsDataset(ROOT, "train", download=True)
 
     print()
     ptitle("Downloading MNIST")
