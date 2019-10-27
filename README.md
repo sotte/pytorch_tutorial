@@ -2,7 +2,10 @@
 ================================================================================
 
 This repository contains material to get started with
-[PyTorch](https://pytorch.org/) v1.0.
+[PyTorch](https://pytorch.org/) v1.3.
+It was the base for this
+[[pytorch tutorial]](https://nodata.science/pydata-pytorch-tutorial.html)
+from PyData Berlin 2018.
 
 <hr>
 
@@ -62,8 +65,9 @@ Setup
 
 ### Requirements
 
-- Python 3.6 or higher
 - conda
+- Python 3.7 or higher
+
 
 ### Install Dependencies
 

@@ -4,15 +4,19 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python=3.6
-  - torchvision
+  - python=3.7
   - cudatoolkit=10.0
   - ignite
-  - jupyterlab
-  - numpy
-  - matplotlib
-  - pillow
   - ipdb
+  - jupyterlab
+  - matplotlib
+  - numpy
+  - pillow
+  - pytorch=1.3
   - scikit-learn
+  - tensorboard
+  - torchvision
+  - pip
   - pip:
+    - poutyne
     - torchsummary
