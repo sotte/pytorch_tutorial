@@ -1,0 +1,8 @@
+torch==1.7
+torchvision
+altair
+jupyterlab
+matplotlib
+notebook
+sklearn
+vega_datasets
