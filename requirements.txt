@@ -1,8 +1,10 @@
 torch==1.7
 torchvision
-altair
 jupyterlab
-matplotlib
 notebook
+ipywidgets
+matplotlib
 sklearn
+altair
+altair_viewer
 vega_datasets
