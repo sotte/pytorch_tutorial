@@ -1,6 +1,7 @@
 torch==1.7
 torchvision
 jupyterlab
+jupytext
 notebook
 ipywidgets
 matplotlib

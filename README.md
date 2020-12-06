@@ -32,7 +32,6 @@ Table of Contents
   [open in colab](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/transfer_learning.ipynb)
 
 ### PART 3 - Misc, Cool Applications, Tips, Advanced
-- [Training Libraries and Visualization](notebooks/training_libraries.ipynb)
 - [Torch JIT](notebooks/torch_jit.ipynb) -
   [open in colab](https://colab.research.google.com/github/sotte/pytorch_tutorial/blob/master/notebooks/torch_jit.ipynb)
 - [Hooks](notebooks/hooks.ipynb) -
