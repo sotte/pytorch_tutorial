@@ -3,6 +3,7 @@
 
 for nb in *.ipynb
   echo $nb
-  jupyter-nbconvert --execute --clear-output $nb
+  # and jupytext --to py:percent $nb
+  jupyter nbconvert --execute --to notebook --inplace $nb
   echo
 end
